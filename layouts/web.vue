@@ -3,7 +3,7 @@
     <div
    
     >
-      <div style="height: 20px; padding: 0px; margin-bottom: 15px; width: 100%; margin-top:-8px">
+      <div style="height: 20px; padding: 0px; margin-bottom: -25px; width: 100%; margin-top:-8px">
         <iframe
           src="https://widget.coinlib.io/widget?type=horizontal_v2&theme=light&pref_coin_id=1505&invert_hover="
           width="100%"
@@ -15,11 +15,10 @@
           border="0"
           style="border: 0; margin: 0; padding: 0"
         ></iframe>
-      </div>
-     
-    </div>
 
-    <v-app-bar color="#7C4DFF" dense dark style="height: 75px">
+
+ <v-app-bar  dense dark style="height: 75px; ">
+   
       <v-img
         lazy-src="https://i.ibb.co/rbh95FW/Crypto-Land-Logo.png"
         max-height="100"
@@ -52,6 +51,16 @@
         </v-list>
       </v-menu>
     </v-app-bar>
+         
+          
+         
+
+
+
     <Nuxt />
+      </div>
+     
+    </div>
+
   </div>
 </template>
